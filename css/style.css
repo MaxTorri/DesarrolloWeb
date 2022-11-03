@@ -130,7 +130,8 @@ footer div a {
 }
 
 .p {
-    color: white;
+    color: black;
+    position: relative;
 }
 
 
