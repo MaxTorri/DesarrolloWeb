@@ -6,9 +6,6 @@
 
 body {
     position: relative;
-    margin: 0;
-    background-color: #000000;
-    position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
 }
@@ -71,11 +68,12 @@ body {
 
 h1 {
     text-shadow: 2px 4px 10px black;
+    border: #000000;
+    position: relative;
 }
 
 .section-index p {
     color: white;
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -94,14 +92,6 @@ h1 {
 .section-index__text h2 {
     display: flex;
     justify-content: center;
-}
-
-body {
-    margin: 0;
-    background-color: #000000;
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 100vh;
 }
 
 .footer { 
