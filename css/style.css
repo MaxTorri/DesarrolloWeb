@@ -51,6 +51,14 @@ footer div a {
 
 /* FIN INDEX */
 
+/* Galeria */
+
+.backgroundGaleria {
+    background-image: url(../assets/img/ImagenesGaleria/galeriafondo.jpg);
+}
+
+/* Fin Galeria */
+
 /* SERVICIOS */
 
 
@@ -59,7 +67,7 @@ footer div a {
 
 /* CONTACTO */
 
-.fondoContactos {
+.backgroundContactos {
     background-image: url(../assets/img/ImagenesContactos/contacto.jpg);
     color: white;
     text-shadow: 2px 4px 10px black;
@@ -81,7 +89,7 @@ footer div a {
 
 /* FAQ */
 
-.imgFondo {
+.backgroundFAQ {
     background-image: url(../assets/img/ImagenesFAQ/FondoFAQ2.jpg);
     text-shadow: 2px 4px 10px black;
     background-repeat: no-repeat;
