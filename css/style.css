@@ -92,8 +92,7 @@ h1 {
 .footer { 
     position: absolute;
     width: 100%;
-    bottom: -15%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(33, 37, 31);
     align-content: flex-end;
     margin-top: auto;
 }
@@ -144,7 +143,7 @@ na
 
 /* CONTACTO */
 
-.fondo-contactos {
+.fondoContactos {
     background-image: url(../assets/img/ImagenesContactos/contacto.jpg);
     color: white;
     text-shadow: 2px 4px 10px black;
@@ -185,8 +184,12 @@ na
 
 /* FAQ */
 
-.fondo {
-    background-image: url(../assets/img/ImagenesFAQ/FondoFAQ.jpg);
+.imgFondo {
+    background-image: url(../assets/img/ImagenesFAQ/FondoFAQ2.jpg);
+    text-shadow: 2px 4px 10px black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .container {
@@ -263,4 +266,10 @@ na
     font-size: 3rem;
     top: -10px;
     opacity: .2;
+}
+
+/* Copyright */
+
+.Copyright {
+    color: white;
 }
