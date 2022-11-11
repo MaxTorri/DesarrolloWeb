@@ -9,12 +9,13 @@ body {
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
+    font-family: 'PT Sans', sans-serif;
 }
 
-
-.header a {
+/* 
+header a {
     color: white;
-}
+} */
 
 .footer { 
     position: absolute;
@@ -59,11 +60,11 @@ footer div a {
 
 /* Fin Galeria */
 
-/* SERVICIOS */
+/* NOSOTROS */
 
 
 
-/* SERVICIOS */
+/* FIN NOSOTROS */
 
 /* CONTACTO */
 
@@ -178,3 +179,117 @@ footer div a {
 .Copyright {
     color: white;
 }
+
+
+/* PRUEBAS */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.headerPruebas {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(../assets/img/ImagenesIndex/indexcarrousel.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.nav.active {
+    background: #000;
+    padding: 15px;
+}
+.nav.active .logo,
+.nav.active a,
+.nav.active .menuBtn i {
+    color: #fff;
+}
+
+.nav.active .menu a {
+    color: #fff;
+}
+
+.nav.active .menu a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.logo {
+    font-size: 25px;
+    color: #000;
+    font-weight: 100;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin: 10px;
+}
+.menu li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover {
+    padding: 5px 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.scrol {
+    height: 100px;
+}
+
+.menuBtn {
+    color: white;
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px){
+    .menuBtn {
+        display: block;
+        color: #000;
+    }
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 350px;
+        height: 100vh;
+        background: #81703B; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+        transform: translatex(-100%);
+    }
+    .menu li {
+        margin: 15px 0;
+    }
+
+    .menu.active {
+        transform: translatex(0);
+    }
+.scrol{
+
+}
+}
+
+/* FIN PRUEBAS */
