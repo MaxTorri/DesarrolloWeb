@@ -100,6 +100,7 @@ footer div a {
     height: calc(100vh - 75px);
     display: flex;
     align-items: center;
+    text-shadow: 3px 3px 100px #000;
 }
 
 .bannerNosotrosTexto {
@@ -110,22 +111,26 @@ footer div a {
     justify-content: center;
     align-items: center;
     align-content: center;
+    text-shadow: 3px 3px 100px #000;
 }
 
 .bannerNosotrosTitulo {
     font-size: 3em;
     color: var(--color-texto-2);
     line-height: 0.5;
+    text-shadow: 3px 3px 100px #000;
 }
 
 .bannerNosotrosTitulo2 {
     font-size: 5em;
     color: var(--color-texto-1);
+    text-shadow: 3px 3px 100px #000;
 }
 
 .textoNosotros {
     font-size: 1.5em;
     color: var(--color-texto-1);
+    text-shadow: 3px 3px 100px #000;
 }
 .bannerNosotrosLink {
     width: 25%;
