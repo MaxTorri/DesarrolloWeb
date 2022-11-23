@@ -1,0 +1,26 @@
+@import './body';
+
+.backgroundContactos {
+    background-image: url(../assets/img/ImagenesContactos/contacto.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+
+.bordesContactos {
+    border-style: none;
+    border: none;
+    outline: none;
+    text-shadow: #000000;
+}
+
+div {
+    form {
+        text-shadow: 2px 4px 10px black;
+    }
+}

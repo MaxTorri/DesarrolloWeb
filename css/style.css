@@ -1,3 +1,95 @@
+main {
+  background-color: black;
+}
 
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #ffffff;
+  align-content: flex-end;
+  margin-top: auto;
+}
+footer div {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 4px 10px #000000;
+  height: 50px;
+}
+footer div a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  list-style: none;
+  font-family: "PT Sans", sans-serif;
+  margin: 20px;
+}
+
+h3 {
+  padding: 20px;
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+  font-family: "PT Sans", sans-serif;
+}
+
+.backgroundGaleria {
+  background-image: url(../../assets/img/ImagenesGaleria/galeriafondo.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+  font-family: "PT Sans", sans-serif;
+}
+
+.backgroundContactos {
+  background-image: url(../assets/img/ImagenesContactos/contacto.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+.bordesContactos {
+  border-style: none;
+  border: none;
+  outline: none;
+  text-shadow: #000000;
+}
+
+div form {
+  text-shadow: 2px 4px 10px black;
+}
 
 /*# sourceMappingURL=style.css.map */
