@@ -1,17 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Body General */
-body {
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 100vh;
-    font-family: 'PT Sans', sans-serif;
-}
-/* Fin del Body general */
 /* INDEX */
 
 .bodyIndex {
@@ -34,15 +21,6 @@ body {
 
 /* NOSOTROS */
 
-:root {
-    --color-1: #ff3535;
-    --color-2: #ffcaca;
-    --color-header: #505050;
-    --color-fondo: #000000;
-    --color-texto-1: #ffffff;
-    --color-texto-2: #ffd000;
-    --color-texto-3: #ff3535;
-}
 
 .mainNosotros {
     width: 100%;
