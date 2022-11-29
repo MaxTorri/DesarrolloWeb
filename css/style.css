@@ -1,13 +1,6 @@
-main {
-  background-color: black;
-}
-
 footer {
-  position: absolute;
   width: 100%;
   background-color: #ffffff;
-  align-content: flex-end;
-  margin-top: auto;
 }
 footer div {
   color: rgb(0, 0, 0);
@@ -27,11 +20,11 @@ footer div a {
 }
 
 h3 {
+  color: #000000;
   padding: 20px;
   font-family: "PT Sans", sans-serif;
   display: flex;
   justify-content: center;
-  color: #000000;
 }
 
 * {
@@ -41,8 +34,6 @@ h3 {
 }
 
 body {
-  position: relative;
-  padding-bottom: 3em;
   min-height: 100vh;
   font-family: "PT Sans", sans-serif;
 }
@@ -54,21 +45,10 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
-  padding-bottom: 3em;
   min-height: 100vh;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  position: relative;
-  padding-bottom: 3em;
-  min-height: 100vh;
-  font-family: "PT Sans", sans-serif;
+.backgroundGaleria .carrouselGaleria {
+  margin-top: 600px;
 }
 
 .backgroundContactos {
@@ -91,6 +71,86 @@ body {
 
 div form {
   text-shadow: 2px 4px 10px black;
+}
+
+.backgroundFAQ {
+  background-image: url(../../assets/img/ImagenesFAQ/FondoFAQ.jpg);
+}
+
+.container {
+  width: 90%;
+  margin: 100px auto;
+}
+
+.containerFaq {
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.containerFaq .titleFaq {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.containerFaq .itemFaq {
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.containerFaq .itemFaq .question {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(43, 51, 122, 0.2);
+  padding: 20px 20px 20px 80px;
+  transition: 0.4s;
+}
+
+.containerFaq .itemFaq .question .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.containerFaq .itemFaq .question .more:hover {
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.4);
+}
+
+.containerFaq .itemFaq .question span {
+  position: absolute;
+  left: 10px;
+  font-size: 3rem;
+  top: 10px;
+  opacity: 0.1;
+}
+
+.containerFaq .itemFaq .answer {
+  position: relative;
+  padding: 0 20px 0 80px;
+  overflow: hidden;
+  height: 0;
+  transition: 0.4s;
+}
+
+.containerFaq .itemFaq .answer p {
+  font-size: 1.3rem;
+}
+
+.containerFaq .itemFaq .answer span {
+  position: absolute;
+  left: 10px;
+  font-size: 3rem;
+  top: -10px;
+  opacity: 0.2;
 }
 
 /*# sourceMappingURL=style.css.map */
