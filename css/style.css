@@ -46,9 +46,7 @@ body {
   background-size: cover;
   position: relative;
   min-height: 100vh;
-}
-.backgroundGaleria .carrouselGaleria {
-  margin-top: 600px;
+  margin-top: -1.5em;
 }
 
 .backgroundContactos {
@@ -60,6 +58,7 @@ body {
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh;
+  margin-top: -6em;
 }
 
 .bordesContactos {
@@ -75,6 +74,15 @@ div form {
 
 .backgroundFAQ {
   background-image: url(../../assets/img/ImagenesFAQ/FondoFAQ.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  margin-top: -6em;
+}
+.backgroundFAQ h1 {
+  color: white;
 }
 
 .container {

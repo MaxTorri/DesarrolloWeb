@@ -1,7 +1,17 @@
 
 .backgroundFAQ {
-    background-image:url(../../assets/img/ImagenesFAQ/FondoFAQ.jpg)
+    background-image:url(../../assets/img/ImagenesFAQ/FondoFAQ.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    margin-top: -6em;
+    h1 {
+        color: white;
+    }
 }
+
 
 .container {
     width: 90%;
